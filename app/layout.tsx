@@ -8,25 +8,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'IdeaDump - Capture Your Ideas',
-  description: 'IdeaDump is your personal space to collect, organize, and manage all your brilliant ideas. Never lose a creative spark again.',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  description:
+    'IdeaDump is your personal space to collect, organize, and manage all your brilliant ideas.',
 }
 
 export default function RootLayout({
